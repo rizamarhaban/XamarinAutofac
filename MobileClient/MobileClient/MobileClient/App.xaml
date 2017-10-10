@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                xmlns:vm="clr-namespace:MobileClient.ViewModels"
+                x:Class="MobileClient.App">
+    <Application.Resources>
+
+        <!-- Application resource dictionary -->
+        <ResourceDictionary>
+            <Color x:Key="ListBGColor">#FFFFFDD8</Color>
+            <Color x:Key="ListItemColor">#FFDF94FF</Color>
+            <vm:ViewModelLocator x:Key="Locator" />
+        </ResourceDictionary>
+        
+    </Application.Resources>
+</Application>
