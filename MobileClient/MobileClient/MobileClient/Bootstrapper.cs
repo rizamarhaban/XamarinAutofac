@@ -1,6 +1,6 @@
 ﻿using Autofac;
 using Autofac.Extras.CommonServiceLocator;
-using Microsoft.Practices.ServiceLocation;
+using CommonServiceLocator;
 using MobileClient.ViewModels;
 using SomeExternalServices;
 
