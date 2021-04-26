@@ -1,7 +1,20 @@
 # XamarinAutofac
-Using Autofac DI/IoC Container in Xamarin.Forms iOS &amp; Android Mobile Apps and UWP Fall Creators Update!
+Using Autofac DI/IoC Container in Xamarin.Forms iOS &amp; Android and Windows 10 UWP Version 2004, Build 19041.
 
-## UPDATE
+## UPDATE 2021
+Upgrade to using `Xamarin.Forms 5.0.0.2012` and latest `Autofac 6.2.0`.
+
+``` xml
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.2.0" />
+    <PackageReference Include="Autofac.Extras.CommonServiceLocator" Version="6.0.1" />
+    <PackageReference Include="SomeExternalServices" Version="1.0.0" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+  </ItemGroup>
+```
+
+## UPDATE 2017
 Added the **MobileClient.UWP** for Windows 10 Fall Creators Update. Must install **Windows 10 SDK (16299.15)**. Here is the ```.csproj``` for the UWP project:
 
 ``` xml
